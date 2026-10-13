@@ -1,0 +1,12 @@
+# id | split | kind | gold | question
+q01 | dev | answer | s60A | How many hours am I allowed to be made to work in one day?
+q02 | dev | answer | s60FA | Can fathers take paid leave when their baby is born?
+q03 | dev | answer | s12 | How much notice must I give if I want to resign?
+q04 | dev | answer | s60F | How many days of paid sick leave do I get?
+q05 | dev | answer | s60D | Do I get paid if a public holiday falls on a day I would normally work?
+q06 | dev | answer | s37 | How long can a pregnant employee stay on maternity leave?
+q07 | dev | answer | s60E | How many days of annual leave do I get after one year of work?
+q08 | dev | answer | s59 | Does my employer have to give me a day off every week?
+q09 | dev | answer | s60P,s60Q | Can I ask my boss to let me work flexible hours?
+q10 | dev | none | - | What is the minimum monthly wage in Malaysia?
+q11 | dev | none | - | How much does my employer have to contribute to my EPF?
