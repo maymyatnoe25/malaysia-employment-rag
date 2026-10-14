@@ -42,6 +42,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--chars", type=int, default=1200, help="unit size; 0 = whole sections")
     ap.add_argument("--model", default="bge-small")
+    ap.add_argument("--final", action="store_true", help="also score the test split")
     args = ap.parse_args()
 
     sections = load_sections()
@@ -62,7 +63,8 @@ def main():
             ranked = [u["section_id"] for u, _ in retriever.search(q["question"], m, k=20)]
             results[m][q["id"]] = first_gold_rank(ranked, q["gold"])
 
-    for split in ("dev", "test"):
+    splits = ("dev", "test") if args.final else ("dev",)
+    for split in splits:
         qs = [q for q in questions if q["split"] == split]
         if not qs:
             continue

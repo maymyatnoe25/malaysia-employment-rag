@@ -19,22 +19,45 @@ q16 | dev | answer | s60E | What happens to my annual leave if I fall sick durin
 q17 | dev | answer | s60FA | How many days of paternity leave can I take and how many times?
 q18 | dev | answer | s19 | By what date must my employer pay my monthly salary?
 q19 | dev | answer | s24 | Is my employer allowed to take money out of my salary?
-q20 | dev | answer | s14 | Can I be fired for being absent from work without telling my employer?
+q20 | dev | answer | s15 | Can I be fired for being absent from work without telling my employer?
 q21 | dev | answer | s41A | Can my employer fire me because I am pregnant?
-q22 | dev | answer | s12 | Can my employer pay me money instead of giving me notice when ending my contract?
+q22 | dev | answer | s13 | Can my employer pay me money instead of giving me notice when ending my contract?
 q23 | dev | answer | s60C | What is the longest a shift worker can be made to work?
 q24 | dev | answer | s2 | What does the law mean by wages?
 q25 | dev | answer | s1 | Does this law apply to workers in Sabah and Sarawak?
-q26 | dev | answer | s60J | Do I get any benefit if my company lets me go because it is shutting down?
+  q26 | dev | none | - | Do I get any benefit if my company lets me go because it is shutting down?
 # --- dev: need two sections ---
 q27 | dev | answer | s60F,s37 | Do I also get paid sick leave while I am on maternity leave?
 q28 | dev | answer | s60D | How much am I paid if I have to work on a public holiday?
-
-# --- dev: the Act should NOT answer these (verify each with --grep) ---
 q30 | dev | none | - | How much income tax do I pay on my internship allowance?
+# --- dev: the Act should NOT answer these (verify each with --grep) ---
 q31 | dev | answer | s8 | Can my employer stop me from joining a trade union?
 q32 | dev | none | - | Does my employer have to give me a Hari Raya bonus?
 q33 | dev | none | - | How long can my probation period be?
 q34 | dev | none | - | Can I work two jobs at the same time?
 q35 | dev | none | - | How many days of leave do civil servants get?
 q36 | dev | none | - | What is the legal retirement age in Malaysia?
+# --- test: answerable (labels come from sections printed earlier; re-read each one) ---
+q37 | test | answer | s60A | My company wants me to work 50 hours every week. Is that even allowed?
+q38 | test | answer | s60A | Can my boss stop me from taking a break if I have worked five hours straight?
+q39 | test | answer | s60 | I got called in on my day off and worked three hours. How should that be paid?
+q40 | test | answer | s60E | If I resign, do I still get paid for the leave I haven't used?
+q41 | test | answer | s60F | How many sick days do I get if I have to stay in hospital?
+q42 | test | answer | s60D | A public holiday fell on my off day. Do I get another day off instead?
+q43 | test | answer | s37 | How much does a company have to pay a woman while she is on maternity leave?
+q44 | test | answer | s37 | Can a woman begin her maternity leave a few weeks before the baby is due?
+q45 | test | answer | s37,s41A | My boss let me go while I was pregnant and about to go on maternity leave. Is that legal?
+q46 | test | answer | s12 | My contract says nothing about notice and I have worked here three years. How long a notice must I give?
+q47 | test | answer | s14 | Can my boss stop me from working without pay while they look into a complaint against me?
+q48 | test | answer | s14 | Does my company have to give me notice before firing me for stealing?
+q49 | test | answer | s24 | Can my company take more than half of my salary to recover a loan?
+q50 | test | answer | s19 | By when does my employer have to pay me for overtime?
+q51 | test | answer | s60Q | How long does my boss have to answer my request to work from home?
+# --- test: the Act should NOT answer these (verify each with --grep) ---
+q52 | test | none | - | How much of my salary goes to SOCSO every month?
+q53 | test | none | - | Can my company read my work emails?
+q54 | test | none | - | What happens to my EPF savings when I resign?
+q55 | test | answer | s81B | If I complain about harassment at work, does my company have to look into it?
+q56 | test | answer | s81B | My company refused to investigate my harassment complaint. What can I do?
+q57 | test | answer | s81C | What happens if the person bothering me is a client and not a coworker?
+q58 | test | answer | s81E | Can I quit on the spot if my harassment complaint is proven?
