@@ -47,7 +47,7 @@ def cited_ids(answer):
     ids = []
     for group in re.findall(r"\[([^\]]+)\]", answer):
         for part in group.split(","):
-            m = re.fullmatch(r"\s*s(\d+[A-Za-z]{0,2})\s*", part)
+            m = re.fullmatch(r"\s*s(\d+[A-Za-z]{0,2})(?:\s*\([^)]*\))*\s*", part)
             if m:
                 ids.append("s" + m.group(1).upper())
     return ids
