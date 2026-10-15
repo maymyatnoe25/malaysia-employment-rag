@@ -1,0 +1,181 @@
+
+##### ANSWERED (read these!) (25)
+
+q01 retrieved=['s60A', 's59', 's60'] cited=['s60A'] support=0.86
+Q: How many hours am I allowed to be made to work in one day?
+A: An employee shall not be required under his contract of service to work more than eight hours in one day. [s60A]
+QUOTE: more than five consecutive hours without a period of leisure of not less than thirty minutes duration; more than eight hours in one day
+
+q02 retrieved=['s60FA', 's60F', 's2'] cited=['s60FA'] support=1.0
+Q: Can fathers take paid leave when their baby is born?
+A: A married male employee is entitled to seven consecutive days of paid paternity leave if his spouse has a confinement. [s60FA]
+QUOTE: a married male employee shall be entitled to a paid paternity leave at his ordinary rate of pay for a period of seven consecutive days in respect of each confinement.
+
+q03 retrieved=['s12', 's63A', 's40'] cited=['s12'] support=1.0
+Q: How much notice must I give if I want to resign?
+A: The amount of notice you must give depends on how long you have been employed. If you have been employed for less than two years, you must give four weeks’ notice, or if you have been employed for two years or more but less than five years, you must give six weeks’ notice.  If you have been employed for five years or more, you must give eight weeks’ notice. [s12]
+QUOTE: four weeks’ notice if the employee has been so employed for less than two years on the date on which the notice is given;
+
+q04 retrieved=['s60F', 's60E', 's100'] cited=['s60F'] support=1.0
+Q: How many days of paid sick leave do I get?
+A: An employee is entitled to paid sick leave in varying amounts depending on their length of service. If employed for less than two years, an employee receives fourteen days in aggregate, while those employed for two years or more but less than five years receive eighteen days, and those employed for five years or more receive twenty-two days. [s60F]
+QUOTE: where no hospitalization is necessary,— (i) of fourteen days in the aggregate in each calendar year if the employee has been employed for less than two years;
+
+q05 retrieved=['s60D', 's19', 's60I'] cited=['s60D'] support=1.0
+Q: Do I get paid if a public holiday falls on a day I would normally work?
+A: Every employee shall be entitled to a paid holiday on the following days in any one calendar year. If a public holiday falls within the period during which an employee is on sick leave or annual leave, the employer shall grant another day as a paid holiday in substitution for such public holiday. [s60D]
+QUOTE: every employee shall be entitled to a paid holiday at his ordinary rate of pay on the following days in any one calendar year
+
+q06 retrieved=['s37', 's40', 's41A'] cited=['s37'] support=1.0
+Q: How long can a pregnant employee stay on maternity leave?
+A: Every female employee shall be entitled to maternity leave for an eligible period in respect of each confinement. NOTE—Previously “ten”— see subparagraph 9( b)(iii) of the Employment (Amendment) Act 2022 [Act A1651 ]. [s37]
+QUOTE: Every female employee shall be entitled— (i) to maternity leave for an eligible period in respect of each confinement;
+
+q07 retrieved=['s60E', 's60F', 's18A'] cited=['s60E'] support=1.0
+Q: How many days of annual leave do I get after one year of work?
+A: An employee with less than two years of service is entitled to eight days of paid annual leave. [s60E]
+QUOTE: eight days for every twelve months of continuous service with the same employer if he has been employed by that employer for a period of less than two years
+
+q08 retrieved=['s59', 's19', 's60E'] cited=['s59'] support=1.0
+Q: Does my employer have to give me a day off every week?
+A: Every employee is allowed in each week a rest day of one whole day as may be determined from time to time by the employer.  Interpretation of the expression “day” in subsection 2(1), in the case of an employee engaged in shift work any continuous period of not less than thirty hours shall constitute a rest day. [s59]
+QUOTE: Every employee shall be allowed in each week a rest day of one whole day as may be determined from time to time by the employer
+
+q09 retrieved=['s60P', 's60A', 's60C'] cited=['s60P'] support=1.0
+Q: Can I ask my boss to let me work flexible hours?
+A: An employee may apply to an employer for a flexible working arrangement to vary the hours of work, days of work or place of work in relation to his employment. [s60P]
+QUOTE: Subject to Part XII or anything contained in the contract of service, an employee may apply to an employer for a flexible working arrangement to vary the hours of work, days of work or place of work in relation to his employment.
+
+q12 retrieved=['s60', 's59', 's60D'] cited=['s60'] support=1.0
+Q: Can my boss make me work on my weekly rest day and do I get paid extra?
+A: No, your boss cannot make you work on your weekly rest day unless it’s for continuous work. [s60]
+QUOTE: No employee shall be compelled to work on a rest day unless he is engaged in work which by reason of its nature requires to be carried on continuously or continually by two or more shifts”.
+
+q13 retrieved=['s100', 's60A', 's60D'] cited=['s60A'] support=1.0
+Q: How much more do I get paid for overtime?
+A: An employee is paid at a rate not less than one and a half times their hourly rate of pay for overtime work. If the overtime is carried out on a paid holiday, they receive two days’ wages at the ordinary rate of pay, plus three times their hourly rate for any overtime. [s60A]
+QUOTE: (3) (a) For any overtime work carried out in excess of the normal hours of work, the employee shall be paid at a rate not less than one and half times his hourly rate of pay irrespective of the basis on which his rate of pay is fixed.
+
+q14 retrieved=['s60A', 's60', 's60C'] cited=['s60C'] support=1.0
+Q: Can I refuse to work more than 12 hours in one day?
+A: An employee engaged in shift work may not be required to work for more than twelve hours in any one day. [s60C]
+QUOTE: Except in the circumstances described in paragraphs 60a(2)(a), (b), (c), (d) and (e), no employer shall require any employee who is engaged under his contract of service in shift work to work for more than twelve hours in any one day.
+
+q15 retrieved=['s60D', 's60E', 's60F'] cited=['s60D'] support=0.8
+Q: How many public holidays does my employer have to give me each year?
+A: Every employee is entitled to eleven gazetted public holidays each year. [s60D]
+QUOTE: every to which he is entitled to paid holidays under paragraph (1) (a)
+
+q16 retrieved=['s60E', 's100', 's60F'] cited=['s60E'] support=1.0
+Q: What happens to my annual leave if I fall sick during it?
+A: An employee is entitled to paid annual leave based on their length of service, and if they become entitled to sick leave while on annual leave, the sick leave will be granted. [s60E]
+QUOTE: Where an employee who is on paid annual leave becomes entitled to sick leave or maternity leave while on such annual leave, the employee shall be granted the sick leave or the maternity leave, as the case may be, and the annual leave shall be deemed 
+
+q17 retrieved=['s60FA', 's37', 's60E'] cited=['s60FA'] support=1.0
+Q: How many days of paternity leave can I take and how many times?
+A: A male employee is entitled to seven consecutive days of paid paternity leave for each confinement. [s60FA]
+QUOTE: a married male employee shall be entitled to a paid paternity leave at his ordinary rate of pay for a period of seven consecutive days in respect of each confinement.
+
+q18 retrieved=['s60D', 's18A', 's60E'] cited=['s60D'] support=0.89
+Q: By what date must my employer pay my monthly salary?
+A: An employee on a monthly rate of pay shall be deemed to have received his monthly wages if he receives them from his employer without abatement for the month in which the salary is due. [s60D]
+QUOTE: An employee on a monthly rate of pay shall be deemed to have received his monthly wages if he receives from his employer his monthly wages, without abatement (other than as provided under subsection (2)) in respect of the holiday, for the month in wh
+
+q19 retrieved=['s73', 's25A', 's24'] cited=['s24'] support=1.0
+Q: Is my employer allowed to take money out of my salary?
+A: An employer can make certain deductions from your salary, but only under specific circumstances and with approval. The Act outlines several types of deductions that are permitted, including correcting mistakes, repaying indemnities, and certain authorized payments. [s24]
+QUOTE: No deductions shall be made by an employer from the wages of an employee otherwise than in accordance with this Act.
+
+q20 retrieved=['s60F', 's15', 's42'] cited=['s15'] support=1.0
+Q: Can I be fired for being absent from work without telling my employer?
+A: An employee can be deemed to have broken their contract of service if they are continuously absent from work for more than two consecutive working days without prior leave from their employer, and without reasonable excuse. [s15]
+QUOTE: An employee shall be deemed to have broken his contract of service with the employer if he has been continuously absent from work for more than two consecutive working days without prior leave from his employer, unless he has a reasonable excuse for 
+
+q21 retrieved=['s41A', 's40', 's37'] cited=['s41A'] support=1.0
+Q: Can my employer fire me because I am pregnant?
+A: Where a female employee is pregnant or is suffering from an illness arising out of her pregnancy, it shall be an offence for her employer to terminate her services or give her notice of termination of service. [s41A]
+QUOTE: Where a female employee is pregnant or is suffering from an illness arising out of her pregnancy, it shall be an offence for her employer to terminate her services or give her notice of termination of service, except on the grounds of—
+
+q23 retrieved=['s60C', 's59', 's2'] cited=['s60C'] support=1.0
+Q: What is the longest a shift worker can be made to work?
+A: An employee working shift work may be required to work more than eight hours in a day or more than forty-five hours in a week, but the average hours over three weeks or three months must not exceed forty-five hours. [s60C]
+QUOTE: an employee who is engaged under his contract of service in shift work may be required by his employer to work more than eight hours in any one day or more than forty-five hours in any one week but the average number of hours worked over any period o
+
+q24 retrieved=['s2', 's33', 's100'] cited=['s33'] support=1.0
+Q: What does the law mean by wages?
+A: Wages are defined as any wages due to any employee by the contractor or any sub-contractor under the contractor for work done in the course of the performance of the contract. [s33]
+QUOTE: such wages as if that employee had been immediately employed by the principal and by the contractor and any such sub-contractor
+
+q25 retrieved=['s1', 's5', 's60D'] cited=['s1'] support=1.0
+Q: Does this law apply to workers in Sabah and Sarawak?
+A: This Act shall apply to *Peninsular Malaysia only.* [s1]
+QUOTE: (2) This Act shall apply to *Peninsular Malaysia only.*
+
+q27 retrieved=['s60F', 's60E', 's100'] cited=['s60E'] support=0.95
+Q: Do I also get paid sick leave while I am on maternity leave?
+A: An employee is entitled to paid sick leave under specific circumstances, including if hospitalization is necessary, and this entitlement continues even while on maternity leave. [s60E]
+QUOTE: Where an employee who is on paid annual leave becomes entitled to sick leave or maternity leave while on such annual leave, the employee shall be granted the sick leave or the maternity leave, and the annual leave shall be deemed to have not been tak
+
+q28 retrieved=['s60D', 's60I', 's19'] cited=['s60D'] support=1.0
+Q: How much am I paid if I have to work on a public holiday?
+A: An employee who works on a paid holiday will be paid two days’ wages at the ordinary rate of pay, or twice the ordinary rate per piece. [s60D]
+QUOTE: in the case of an employee employed on a monthly, weekly, daily, hourly, or other similar rate of pay, be paid two days’ wages at the ordinary rate of pay; or
+
+q31 retrieved=['s8', 's15', 's2A'] cited=['s8'] support=1.0
+Q: Can my employer stop me from joining a trade union?
+A: No, your employer cannot stop you from joining a registered trade union. You have the right to join a trade union, participate in its activities, or associate with others to form one. This right is protected regardless of your employment contract. [s8]
+QUOTE: Nothing in any contract of service shall in any manner restrict the right of any employee who is a party to such contract—(a) to join a registered trade union; (b) to participate in the activities of a registered trade union, whether as an officer of
+
+
+##### MODEL SAID NOT_FOUND (0)
+
+
+##### QUOTE NOT SUPPORTED (1)
+
+q22 retrieved=['s57', 's21', 's13'] cited=[] support=0.5
+Q: Can my employer pay me money instead of giving me notice when ending my contract?
+A: NOT_FOUND
+QUOTE: Either party to a contract of service may terminate such contract of service without notice or, if notice has already been given in accordance with section 12, without waiting for the expiry of that notice, by paying to the other party an indemnity o
+
+
+##### NOT IN THE ACT BUT ANSWERED (8)
+
+q10 retrieved=['s60I', 's18', 's18A'] cited=['s18'] support=1.0
+Q: What is the minimum monthly wage in Malaysia?
+A: The Employment Act 1955 does not specify a minimum monthly wage. It outlines how wages are calculated based on the agreed rate of pay and the wage period, which cannot exceed one month. [s18]
+QUOTE: A contract of service shall specify a wage period not exceeding one month.
+
+q11 retrieved=['s60E', 's37', 's25'] cited=['s25'] support=1.0
+Q: How much does my employer have to contribute to my EPF?
+A: The Employment Act 1955 does not specify how much an employer must contribute to an EPF. SECTION 25 outlines payment of wages through a financial institution, but does not address employer contributions to the EPF. [s25]
+QUOTE: The entire amount of wages earned by, or payable to, any employee in respect of any work done by him less any lawful deductions, shall be actually paid to him through payment into an account opened by a financial institution, being an account in the 
+
+q26 retrieved=['s7A', 's69', 's2'] cited=['s69'] support=0.97
+Q: Do I get any benefit if my company lets me go because it is shutting down?
+A: An employee may be entitled to payment if their employer is shutting down. [s69]
+QUOTE: the Director General may make an order in the prescribed form for the payment by the employer of such sum of money as he deems just without limitation of the amount thereof.
+
+q32 retrieved=['s2', 's69', 's40'] cited=['s69'] support=1.0
+Q: Does my employer have to give me a Hari Raya bonus?
+A: The Act does not specifically mention a Hari Raya bonus. SECTION 69 outlines the Director General’s power to decide disputes regarding payments, but it focuses on wages and other payments due under the contract of service. SECTION 40 deals with maternity allowances and related notifications. [s69]
+QUOTE: The Director General may inquire into and decide any dispute between an employee and his employer in respect of wages or any other payments in cash due to such employee under—(a) any term of the contract of service between such employee and his emplo
+
+q33 retrieved=['s42', 's18', 's37'] cited=['s18'] support=1.0
+Q: How long can my probation period be?
+A: The Act does not specify a maximum length for probation periods. It focuses on wage periods and maternity leave entitlements for female employees. [s18]
+QUOTE: A contract of service shall specify a wage period not exceeding one month.
+
+q34 retrieved=['s60', 's2', 's60A'] cited=['s2'] support=1.0
+Q: Can I work two jobs at the same time?
+A: The Act does not specifically address the ability to work two jobs simultaneously. However, section 2 defines “contract of service” as an agreement whereby one person employs another as an employee, which would generally allow for multiple employment arrangements. [s2]
+QUOTE: contract of service” means any agreement, whether oral or in writing and whether express or implied, whereby one person agrees to employ another as an employee and that other agrees to serve his employer as an employee
+
+q35 retrieved=['s60E', 's60F', 's60FA'] cited=['s60E'] support=0.81
+Q: How many days of leave do civil servants get?
+A: An employee is entitled to eight days of paid annual leave if they have been employed for less than two years, twelve days if they have been employed for two years or more but less than five years, and sixteen days if they have been employed for five years or more. [s60E]
+QUOTE: eight days for every twelve months of continuous service with the same employer if he has been employed by that employer for a period of less than two years; twelve days for every twelve months of continuous service with the same employer if he has b
+
+q36 retrieved=['s1', 's60O', 's2'] cited=['s2'] support=0.93
+Q: What is the legal retirement age in Malaysia?
+A: This Act does not specify a legal retirement age for employees. [s2]
+QUOTE: This Act has been extended to the Federal Territory of Labuan– see subsection 1(2) of the Federal Territory of Labuan (Extension and Modification of Employment Act) Order 2000  w.e.f. 1 November 2000.
