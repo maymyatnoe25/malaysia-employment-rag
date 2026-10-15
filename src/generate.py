@@ -10,20 +10,24 @@ OLLAMA = "http://localhost:11434/api/generate"
 LLM = "llama3.2"
 
 PROMPT = """You answer questions about the Malaysian Employment Act 1955 for employees.
-Use ONLY the numbered sources below.
+Use ONLY the sources below.
 
-Rules:
-1. Answer in 1 to 4 plain sentences.
-2. After each claim, cite the section in square brackets, like [s60F].
-3. Only cite sections that appear in the sources below.
-4. Reply with exactly NOT_FOUND only if none of the sources contains information that answers the question.
-5. Do not use outside knowledge. Do not guess numbers.
+Reply in exactly this format:
+ANSWER: <1 to 3 plain sentences>
+QUOTE: <one sentence copied word for word from the sources that supports your answer>
+
+If the sources do not contain the answer, reply with exactly: NOT_FOUND
+Do not guess. Do not use outside knowledge.
 
 Sources:
 {sources}
 
 Question: {question}
-Answer:"""
+"""
+
+
+def norm(s):
+    return re.sub(r"[^a-z0-9]", "", s.lower())
 
 
 def build_prompt(question, hits, full=None):
@@ -42,19 +46,17 @@ def ask_llm(prompt, model=LLM):
     return r.json()["response"].strip()
 
 
-def cited_ids(answer):
-    """Section ids cited like [s60F] or [s60F, s37]."""
-    ids = []
-    for group in re.findall(r"\[([^\]]+)\]", answer):
-        for part in group.split(","):
-            m = re.fullmatch(r"\s*s(\d+[A-Za-z]{0,2})(?:\s*\([^)]*\))*\s*", part)
-            if m:
-                ids.append("s" + m.group(1).upper())
-    return ids
+def parse(raw):
+    """Return (answer, quote) or None when the model refused or broke the format."""
+    m = re.search(r"ANSWER:\s*(.*?)\s*QUOTE:\s*(.*)", raw, re.S | re.I)
+    if m:
+        quote = re.sub(r"\[[^\]]*\]", "", m.group(2)).strip(" \"'\u201c\u201d\n")
+        return m.group(1).strip(), quote
+    return None
 
 
-def abstained(answer):
-    return "NOT_FOUND" in answer.upper().replace(" ", "_")
+def refused(raw):
+    return bool(re.search(r"NOT[\s_-]*FOUND", raw, re.I)) and parse(raw) is None
 
 
 class Assistant:
@@ -76,10 +78,26 @@ class Assistant:
 
     def answer(self, question):
         hits, prompt = self.prompt_for(question)
-        text = ask_llm(prompt, self.model)
-        return {"question": question, "answer": text,
-                "retrieved": [u["section_id"] for u, _ in hits],
-                "cited": cited_ids(text), "abstained": abstained(text)}
+        retrieved = [u["section_id"] for u, _ in hits]
+        raw = ask_llm(prompt, self.model)
+        base = {"question": question, "raw": raw, "retrieved": retrieved,
+                "quote": "", "cited": [], "abstained": True, "unsupported": False,
+                "answer": "NOT_FOUND"}
+        if refused(raw):
+            return base
+        parsed = parse(raw)
+        if parsed is None:                       # wrong format: do not trust it
+            base["unsupported"] = True
+            return base
+        answer, quote = parsed
+        q = norm(quote)
+        found = [sid for sid in retrieved if len(q) >= 30 and q in norm(self.full[sid])]
+        if not found:                            # quote is not in the sources
+            base["unsupported"], base["quote"] = True, quote
+            return base
+        base.update(answer=f"{answer} [{', '.join(found)}]", quote=quote,
+                    cited=found, abstained=False)
+        return base
 
 
 def main():
@@ -88,7 +106,9 @@ def main():
     r = Assistant().answer(" ".join(sys.argv[1:]))
     print("Retrieved:", r["retrieved"])
     print("Answer   :", r["answer"])
-    print("Cited    :", r["cited"], "| abstained:", r["abstained"])
+    print("Quote    :", r["quote"])
+    print("Cited    :", r["cited"], "| abstained:", r["abstained"],
+          "| unsupported:", r["unsupported"])
 
 
 if __name__ == "__main__":

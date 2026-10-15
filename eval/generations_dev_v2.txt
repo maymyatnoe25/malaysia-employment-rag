@@ -1,0 +1,175 @@
+q01 [answer] gold=['s60A']
+Q: How many hours am I allowed to be made to work in one day?
+A: NOT_FOUND
+retrieved=['s60A', 's59', 's60'] cited=[]
+
+q02 [answer] gold=['s60FA']
+Q: Can fathers take paid leave when their baby is born?
+A: Yes, a married male employee shall be entitled to a paid paternity leave at his ordinary rate of pay for a period of seven consecutive days in respect of each confinement. [s60FA]
+retrieved=['s60FA', 's60F', 's2'] cited=['s60FA']
+
+q03 [answer] gold=['s12']
+Q: How much notice must I give if I want to resign?
+A: The length of the notice shall be the same for both employer and employee and shall be determined by a provision made in writing for such notice in the terms of the contract of service, or, in the absence of such provision in writing, shall not be less than four weeks’ notice if the employee has been so employed for less than two years on the date on which the notice is given. [s12]
+retrieved=['s12', 's63A', 's40'] cited=['s12']
+
+q04 [answer] gold=['s60F']
+Q: How many days of paid sick leave do I get?
+A: The number of days of paid sick leave depends on the length of service with the employer. [s60F]
+retrieved=['s60F', 's60E', 's100'] cited=['s60F']
+
+q05 [answer] gold=['s60D']
+Q: Do I get paid if a public holiday falls on a day I would normally work?
+A: NOT_FOUND
+retrieved=['s60D', 's19', 's60I'] cited=[]
+
+q06 [answer] gold=['s37']
+Q: How long can a pregnant employee stay on maternity leave?
+A: NOT_FOUND
+retrieved=['s37', 's40', 's41A'] cited=[]
+
+q07 [answer] gold=['s60E']
+Q: How many days of annual leave do I get after one year of work?
+A: twelve days. [s60E]
+retrieved=['s60E', 's60F', 's18A'] cited=['s60E']
+
+q08 [answer] gold=['s59']
+Q: Does my employer have to give me a day off every week?
+A: No, your employer does not have to give you a day off every week. The employer is allowed to grant the rest day for each week on any day of the month in which the rest days fall, subject to the Director General's approval. [s59]
+retrieved=['s59', 's19', 's60E'] cited=['s59']
+
+q09 [answer] gold=['s60P', 's60Q']
+Q: Can I ask my boss to let me work flexible hours?
+A: Yes, you can apply to your employer for a flexible working arrangement to vary the hours of work, days of work or place of work in relation to your employment. [s60P]
+retrieved=['s60P', 's60A', 's60C'] cited=['s60P']
+
+q10 [none] gold=[]
+Q: What is the minimum monthly wage in Malaysia?
+A: NOT_FOUND
+retrieved=['s60I', 's18', 's18A'] cited=[]
+
+q11 [none] gold=[]
+Q: How much does my employer have to contribute to my EPF?
+A: NOT_FOUND
+retrieved=['s60E', 's37', 's25'] cited=[]
+
+q12 [answer] gold=['s60']
+Q: Can my boss make me work on my weekly rest day and do I get paid extra?
+A: Yes, your boss can make you work on your weekly rest day if you are engaged in work that requires continuous or continual shifts, but you will be paid extra according to the Malaysian Employment Act 1955. [s60]
+retrieved=['s60', 's59', 's60D'] cited=['s60']
+
+q13 [answer] gold=['s60A']
+Q: How much more do I get paid for overtime?
+A: NOT_FOUND
+retrieved=['s100', 's60A', 's60D'] cited=[]
+
+q14 [answer] gold=['s60A']
+Q: Can I refuse to work more than 12 hours in one day?
+A: NOT_FOUND
+retrieved=['s60A', 's60', 's60C'] cited=[]
+
+q15 [answer] gold=['s60D']
+Q: How many public holidays does my employer have to give me each year?
+A: The employer shall exhibit conspicuously at the place of employment before the commencement of each calendar year a notice specifying the remaining six gazetted public holidays provided for in paragraph (1) (a) in respect of which his employees shall be entitled to paid holidays under paragraph (1) (a). [s60D]
+retrieved=['s60D', 's60E', 's60F'] cited=['s60D']
+
+q16 [answer] gold=['s60E']
+Q: What happens to my annual leave if I fall sick during it?
+A: If an employee who is on paid annual leave becomes entitled to sick leave or maternity leave while on such annual leave, the employee shall be granted the sick leave or the maternity leave, as the case may be, and the annual leave shall be deemed to have not been taken in respect of the days for which sick leave or maternity leave is so granted. [s60E]
+retrieved=['s60E', 's100', 's60F'] cited=['s60E']
+
+q17 [answer] gold=['s60FA']
+Q: How many days of paternity leave can I take and how many times?
+A: NOT_FOUND
+retrieved=['s60FA', 's37', 's60E'] cited=[]
+
+q18 [answer] gold=['s19']
+Q: By what date must my employer pay my monthly salary?
+A: NOT_FOUND
+retrieved=['s60D', 's18A', 's60E'] cited=[]
+
+q19 [answer] gold=['s24']
+Q: Is my employer allowed to take money out of my salary?
+A: NOT_FOUND
+retrieved=['s73', 's25A', 's24'] cited=[]
+
+q20 [answer] gold=['s15']
+Q: Can I be fired for being absent from work without telling my employer?
+A: Yes, you can be deemed to have broken your contract of service with your employer if you have been continuously absent from work for more than two consecutive working days without prior leave from your employer. [s15]
+retrieved=['s60F', 's15', 's42'] cited=['s15']
+
+q21 [answer] gold=['s41A']
+Q: Can my employer fire me because I am pregnant?
+A: NOT_FOUND
+retrieved=['s41A', 's40', 's37'] cited=[]
+
+q22 [answer] gold=['s13']
+Q: Can my employer pay me money instead of giving me notice when ending my contract?
+A: NOT_FOUND
+retrieved=['s57', 's21', 's13'] cited=[]
+
+q23 [answer] gold=['s60C']
+Q: What is the longest a shift worker can be made to work?
+A: The longest a shift worker can be made to work is forty-five hours in any one week, but the average number of hours worked over any period of three weeks shall not exceed forty-five per week. [s60C]
+retrieved=['s60C', 's59', 's2'] cited=['s60C']
+
+q24 [answer] gold=['s2']
+Q: What does the law mean by wages?
+A: NOT_FOUND
+retrieved=['s2', 's33', 's100'] cited=[]
+
+q25 [answer] gold=['s1']
+Q: Does this law apply to workers in Sabah and Sarawak?
+A: NOT_FOUND
+retrieved=['s1', 's5', 's60D'] cited=[]
+
+q26 [none] gold=[]
+Q: Do I get any benefit if my company lets me go because it is shutting down?
+A: NOT_FOUND
+retrieved=['s7A', 's69', 's2'] cited=[]
+
+q27 [answer] gold=['s60F', 's37']
+Q: Do I also get paid sick leave while I am on maternity leave?
+A: NOT_FOUND
+retrieved=['s60F', 's60E', 's100'] cited=[]
+
+q28 [answer] gold=['s60D']
+Q: How much am I paid if I have to work on a public holiday?
+A: An employee shall, in addition to the holiday pay he is entitled to for that day, be paid two days’ wages at the ordinary rate of pay if he is employed on a monthly, weekly, daily, hourly, or other similar rate of pay, or be paid twice the ordinary rate per piece if he is employed on piece rates. [s60D]
+retrieved=['s60D', 's60I', 's19'] cited=['s60D']
+
+q30 [none] gold=[]
+Q: How much income tax do I pay on my internship allowance?
+A: NOT_FOUND
+retrieved=['s37', 's60D', 's38'] cited=[]
+
+q31 [answer] gold=['s8']
+Q: Can my employer stop me from joining a trade union?
+A: NOT_FOUND [s8]
+retrieved=['s8', 's15', 's2A'] cited=['s8']
+
+q32 [none] gold=[]
+Q: Does my employer have to give me a Hari Raya bonus?
+A: NOT_FOUND
+retrieved=['s2', 's69', 's40'] cited=[]
+
+q33 [none] gold=[]
+Q: How long can my probation period be?
+A: NOT_FOUND
+retrieved=['s42', 's18', 's37'] cited=[]
+
+q34 [none] gold=[]
+Q: Can I work two jobs at the same time?
+A: NOT_FOUND
+retrieved=['s60', 's2', 's60A'] cited=[]
+
+q35 [none] gold=[]
+Q: How many days of leave do civil servants get?
+A: NOT_FOUND
+retrieved=['s60E', 's60F', 's60FA'] cited=[]
+
+q36 [none] gold=[]
+Q: What is the legal retirement age in Malaysia?
+A: NOT_FOUND
+retrieved=['s1', 's60O', 's2'] cited=[]
+
