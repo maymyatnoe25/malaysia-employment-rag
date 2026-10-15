@@ -8,26 +8,43 @@ from src.search import load_sections, make_units
 
 OLLAMA = "http://localhost:11434/api/generate"
 LLM = "llama3.2"
+THRESHOLD = 0.8      # share of the quote's 4-word sequences found in a source
 
 PROMPT = """You answer questions about the Malaysian Employment Act 1955 for employees.
-Use ONLY the sources below.
+Below are numbered sections of the Act. They are the only information you may use.
 
 Reply in exactly this format:
-ANSWER: <1 to 3 plain sentences>
-QUOTE: <one sentence copied word for word from the sources that supports your answer>
+ANSWER: <1 to 3 plain sentences that answer the question>
+QUOTE: <words copied exactly from one section below that support the answer>
 
-If the sources do not contain the answer, reply with exactly: NOT_FOUND
-Do not guess. Do not use outside knowledge.
+Rules:
+- The QUOTE must be copied word for word from the sections. Never write a section number or the name of the Act as the quote.
+- If a section below covers the topic of the question, answer from it.
+- Only if no section below contains the answer, reply with the single word NOT_FOUND and nothing else.
+- Do not use outside knowledge. Do not guess numbers.
 
-Sources:
+Sections:
 {sources}
 
 Question: {question}
 """
 
 
-def norm(s):
-    return re.sub(r"[^a-z0-9]", "", s.lower())
+def words(s):
+    return re.findall(r"[a-z0-9]+", s.lower())
+
+
+def grams(ws, n=4):
+    return {tuple(ws[i:i + n]) for i in range(len(ws) - n + 1)}
+
+
+def support(quote, text):
+    """Share of the quote's 4-word sequences that also appear in text."""
+    qw = words(quote)
+    if len(qw) < 8:
+        return 0.0
+    qg = grams(qw)
+    return len(qg & grams(words(text))) / len(qg) if qg else 0.0
 
 
 def build_prompt(question, hits, full=None):
@@ -47,16 +64,16 @@ def ask_llm(prompt, model=LLM):
 
 
 def parse(raw):
-    """Return (answer, quote) or None when the model refused or broke the format."""
     m = re.search(r"ANSWER:\s*(.*?)\s*QUOTE:\s*(.*)", raw, re.S | re.I)
-    if m:
-        quote = re.sub(r"\[[^\]]*\]", "", m.group(2)).strip(" \"'\u201c\u201d\n")
-        return m.group(1).strip(), quote
-    return None
+    if not m:
+        return None
+    quote = re.split(r"\n\s*ANSWER:", m.group(2), flags=re.I)[0]
+    quote = re.sub(r"\[[^\]]*\]", "", quote).strip(" \"'\u201c\u201d\n")
+    return m.group(1).strip(), quote
 
 
-def refused(raw):
-    return bool(re.search(r"NOT[\s_-]*FOUND", raw, re.I)) and parse(raw) is None
+def is_refusal(text):
+    return bool(re.search(r"NOT[\s_-]*FOUND", text, re.I))
 
 
 class Assistant:
@@ -82,21 +99,22 @@ class Assistant:
         raw = ask_llm(prompt, self.model)
         base = {"question": question, "raw": raw, "retrieved": retrieved,
                 "quote": "", "cited": [], "abstained": True, "unsupported": False,
-                "answer": "NOT_FOUND"}
-        if refused(raw):
-            return base
+                "support": 0.0, "answer": "NOT_FOUND"}
         parsed = parse(raw)
-        if parsed is None:                       # wrong format: do not trust it
-            base["unsupported"] = True
+        if parsed is None:
+            base["unsupported"] = not is_refusal(raw)    # broke the format
             return base
         answer, quote = parsed
-        q = norm(quote)
-        found = [sid for sid in retrieved if len(q) >= 30 and q in norm(self.full[sid])]
-        if not found:                            # quote is not in the sources
-            base["unsupported"], base["quote"] = True, quote
+        if is_refusal(answer):
             return base
-        base.update(answer=f"{answer} [{', '.join(found)}]", quote=quote,
-                    cited=found, abstained=False)
+        scores = {sid: support(quote, self.full[sid]) for sid in retrieved}
+        found = sorted((s for s in retrieved if scores[s] >= THRESHOLD),
+                       key=lambda s: -scores[s])
+        base["quote"], base["support"] = quote, round(max(scores.values()), 2)
+        if not found:                                    # quote not in the sources
+            base["unsupported"] = True
+            return base
+        base.update(answer=f"{answer} [{', '.join(found)}]", cited=found, abstained=False)
         return base
 
 
@@ -106,7 +124,7 @@ def main():
     r = Assistant().answer(" ".join(sys.argv[1:]))
     print("Retrieved:", r["retrieved"])
     print("Answer   :", r["answer"])
-    print("Quote    :", r["quote"])
+    print("Quote    :", r["quote"], "| support:", r["support"])
     print("Cited    :", r["cited"], "| abstained:", r["abstained"],
           "| unsupported:", r["unsupported"])
 

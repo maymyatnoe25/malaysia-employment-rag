@@ -1,0 +1,141 @@
+
+##### ANSWERED (read these!) (17)
+
+q01 retrieved=['s60A', 's59', 's60'] cited=['s60A'] support=0.87
+Q: How many hours am I allowed to be made to work in one day?
+A: eight hours. [s60A]
+QUOTE: (1) Except as hereinafter provided, an employee shall not be required under his contract of service to work— (b) more than eight hours in one day;
+
+q02 retrieved=['s60FA', 's60F', 's2'] cited=['s60FA'] support=1.0
+Q: Can fathers take paid leave when their baby is born?
+A: Yes, a married male employee shall be entitled to a paid paternity leave at his ordinary rate of pay for a period of seven consecutive days in respect of each confinement. [s60FA]
+QUOTE: a married male employee shall be entitled to a paid paternity leave at his ordinary rate of pay for a period of seven consecutive days in respect of each confinement.
+
+q03 retrieved=['s12', 's63A', 's40'] cited=['s12'] support=1.0
+Q: How much notice must I give if I want to resign?
+A: The length of such notice shall be the same for both employer and employee and shall be determined by a provision made in writing for such notice in the terms of the contract of service, or, in the absence of such provision in writing, shall not be less than four weeks’ notice if the employee has been so employed for less than two years on the date on which the notice is given. [s12]
+QUOTE: (2) The length of such notice shall be the same for both employer and employee and shall be determined by a provision made in writing for such notice in the terms of the contract of service, or, in the absence of such provision in writing, shall not 
+
+q06 retrieved=['s37', 's40', 's41A'] cited=['s37'] support=1.0
+Q: How long can a pregnant employee stay on maternity leave?
+A: ninety-eight consecutive days. [s37]
+QUOTE: eligible period" means a period of maternity leave of not less than *ninety-eight consecutive days.
+
+q07 retrieved=['s60E', 's60F', 's18A'] cited=['s60E'] support=1.0
+Q: How many days of annual leave do I get after one year of work?
+A: twelve days for every twelve months of continuous service with the same employer if he has been employed by that employer for a period of two years or more but less than five years. [s60E]
+QUOTE: (b) twelve days for every twelve months of continuous service with the same employer if he has been employed by that employer for a period of two years or more but less than five years;
+
+q08 retrieved=['s59', 's19', 's60E'] cited=['s59'] support=1.0
+Q: Does my employer have to give me a day off every week?
+A: No, your employer does not have to give you a day off every week. [s59]
+QUOTE: (1 a) Notwithstanding subsection (1) and interpretation of the expression “day” in subsection 2(1), in the case of an employee engaged in shift work any continuous period of not less than thirty hours shall constitute a rest day.
+
+q09 retrieved=['s60P', 's60A', 's60C'] cited=['s60P'] support=1.0
+Q: Can I ask my boss to let me work flexible hours?
+A: Yes, an employee may apply to an employer for a flexible working arrangement to vary the hours of work, days of work or place of work in relation to his employment. [s60P]
+QUOTE: Subject to Part XII or anything contained in the contract of service, an employee may apply to an employer for a flexible working arrangement to vary the hours of work, days of work or place of work in relation to his employment.
+
+q12 retrieved=['s60', 's59', 's60D'] cited=['s60'] support=1.0
+Q: Can my boss make me work on my weekly rest day and do I get paid extra?
+A: Yes, your boss can make you work on your weekly rest day if you are engaged in work that requires continuous or continual shifts, and you will be paid for any period of work that does not exceed half your normal hours of work, one day's wages at the ordinary rate of pay, or for any period of work that is more than half but does not exceed your normal hours of work, two days' wages at the ordinary 
+QUOTE: (3) (a) In the case of an employee employed on a daily, hourly or other similar rate of pay who works on a rest day, he shall be paid for any period of work— (i) which does not exceed half his normal hours of work, one day’s wages at the ordinary rat
+
+q13 retrieved=['s100', 's60A', 's60D'] cited=['s60A'] support=1.0
+Q: How much more do I get paid for overtime?
+A: one and a half times his hourly rate of pay irrespective of the basis on which his rate of pay is fixed. [s60A]
+QUOTE: (a) For any overtime work carried out in excess of the normal hours of work, the employee shall be paid at a rate not less than one and half times his hourly rate of pay irrespective of the basis on which his rate of pay is fixed.
+
+q15 retrieved=['s60D', 's60E', 's60F'] cited=['s60D'] support=1.0
+Q: How many public holidays does my employer have to give me each year?
+A: eleven [s60D]
+QUOTE: (1) Every employee shall be entitled to a paid holiday at his ordinary rate of pay on the following days in any one calendar year:
+
+q16 retrieved=['s60E', 's100', 's60F'] cited=['s60E'] support=1.0
+Q: What happens to my annual leave if I fall sick during it?
+A: The employee shall be granted the sick leave, and the annual leave shall be deemed to have not been taken in respect of the days for which sick leave is so granted. [s60E]
+QUOTE: (1 b) Where an employee who is on paid annual leave becomes entitled to sick leave or maternity leave while on such annual leave, the employee shall be granted the sick leave or the maternity leave, as the case may be, and the annual leave shall be d
+
+q17 retrieved=['s60FA', 's37', 's60E'] cited=['s60FA'] support=1.0
+Q: How many days of paternity leave can I take and how many times?
+A: seven consecutive days in respect of each confinement, restricted to five confinements irrespective of the number of spouses. [s60FA]
+QUOTE: (1) Subject to subsection (3), a married male employee shall be entitled to a paid paternity leave at his ordinary rate of pay for a period of seven consecutive days in respect of each confinement.
+
+q19 retrieved=['s73', 's25A', 's24'] cited=['s24'] support=1.0
+Q: Is my employer allowed to take money out of my salary?
+A: Yes, your employer is allowed to make deductions from your salary, but only in accordance with the Act and with your written request, except for certain deductions such as payments to a registered trade union or co-operative thrift and loan society, or for the purchase of goods from the employer's business. [s24]
+QUOTE: (4) The following deductions shall not be made except at the request in writing of the employee and with the prior permission in writing of the Director General:
+
+q20 retrieved=['s60F', 's15', 's42'] cited=['s60F'] support=1.0
+Q: Can I be fired for being absent from work without telling my employer?
+A: Yes, an employee who absents himself on sick leave— (a) which is not certified by a registered medical practitioner or a medical officer as provided under subsection (1) or a dental surgeon as provided under subsection (1 a); or (b) which is certified by such registered medical practitioner or medical officer or dental surgeon, but without informing or attempting to inform his employer of such sic
+QUOTE: (2) An employee who absents himself on sick leave— (a) which is not certified by a registered medical practitioner or a medical officer as provided under subsection (1) or a dental surgeon as provided under subsection (1 a); or (b) which is certified
+
+q23 retrieved=['s60C', 's59', 's2'] cited=['s60C'] support=0.99
+Q: What is the longest a shift worker can be made to work?
+A: forty-five hours in any one week. [s60C]
+QUOTE: (1) an employee who is engaged under his contract of service in shift work may be required by his employer to work more than eight hours in any one day or more than forty-five hours in any one week but the average number of hours worked over any peri
+
+q27 retrieved=['s60F', 's60E', 's100'] cited=['s60E'] support=1.0
+Q: Do I also get paid sick leave while I am on maternity leave?
+A: yes, the employee shall be granted the sick leave, as the case may be, and the annual leave shall be deemed to have not been taken in respect of the days for which sick leave or maternity leave is so granted. [s60E]
+QUOTE: (1 b) Where an employee who is on paid annual leave becomes entitled to sick leave or maternity leave while on such annual leave, the employee shall be granted the sick leave or the maternity leave, as the case may be, and the annual leave shall be d
+
+q28 retrieved=['s60D', 's60I', 's19'] cited=['s60D'] support=1.0
+Q: How much am I paid if I have to work on a public holiday?
+A: You shall be paid two days' wages at the ordinary rate of pay. [s60D]
+QUOTE: (3) (a) Notwithstanding subsections (1), (1 a) and (1 b), any employee may be required by his employer to work on any paid holiday to which he is entitled under the said subsections and in such event he shall, in addition to the holiday pay he is ent
+
+
+##### MODEL SAID NOT_FOUND (7)
+
+q05 retrieved=['s60D', 's19', 's60I'] cited=[] support=0.0
+Q: Do I get paid if a public holiday falls on a day I would normally work?
+A: NOT_FOUND
+QUOTE: 
+
+q14 retrieved=['s60A', 's60', 's60C'] cited=[] support=0.0
+Q: Can I refuse to work more than 12 hours in one day?
+A: NOT_FOUND
+QUOTE: 
+
+q18 retrieved=['s60D', 's18A', 's60E'] cited=[] support=0.0
+Q: By what date must my employer pay my monthly salary?
+A: NOT_FOUND
+QUOTE: 
+
+q21 retrieved=['s41A', 's40', 's37'] cited=[] support=0.0
+Q: Can my employer fire me because I am pregnant?
+A: NOT_FOUND
+QUOTE: 
+
+q22 retrieved=['s57', 's21', 's13'] cited=[] support=0.0
+Q: Can my employer pay me money instead of giving me notice when ending my contract?
+A: NOT_FOUND
+QUOTE: 
+
+q25 retrieved=['s1', 's5', 's60D'] cited=[] support=0.0
+Q: Does this law apply to workers in Sabah and Sarawak?
+A: NOT_FOUND
+QUOTE: 
+
+q31 retrieved=['s8', 's15', 's2A'] cited=[] support=0.0
+Q: Can my employer stop me from joining a trade union?
+A: NOT_FOUND
+QUOTE: 
+
+
+##### QUOTE NOT SUPPORTED (2)
+
+q04 retrieved=['s60F', 's60E', 's100'] cited=[] support=0.0
+Q: How many days of paid sick leave do I get?
+A: NOT_FOUND
+QUOTE: 
+
+q24 retrieved=['s2', 's33', 's100'] cited=[] support=0.0
+Q: What does the law mean by wages?
+A: NOT_FOUND
+QUOTE: 
+
+
+##### NOT IN THE ACT BUT ANSWERED (0)

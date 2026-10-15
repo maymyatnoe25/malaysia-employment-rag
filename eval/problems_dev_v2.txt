@@ -1,0 +1,71 @@
+
+##### MODEL SAID NOT_FOUND (6)
+
+q13 retrieved=['s100', 's60A', 's60D']
+Q: How much more do I get paid for overtime?
+RAW: ANSWER: Not_FOUND
+NOT_FOUND
+
+q14 retrieved=['s60A', 's60', 's60C']
+Q: Can I refuse to work more than 12 hours in one day?
+RAW: NOT_FOUND
+
+q18 retrieved=['s60D', 's18A', 's60E']
+Q: By what date must my employer pay my monthly salary?
+RAW: NOT_FOUND
+
+q22 retrieved=['s57', 's21', 's13']
+Q: Can my employer pay me money instead of giving me notice when ending my contract?
+RAW: NOT_FOUND
+
+q25 retrieved=['s1', 's5', 's60D']
+Q: Does this law apply to workers in Sabah and Sarawak?
+RAW: NOT_FOUND
+
+q27 retrieved=['s60F', 's60E', 's100']
+Q: Do I also get paid sick leave while I am on maternity leave?
+RAW: ANSWER: NOT_FOUND
+ 
+(No information is provided in the sources regarding whether an employee receives paid sick leave while on maternity leave.)
+
+
+##### QUOTE NOT FOUND (7)
+
+q01 retrieved=['s60A', 's59', 's60']
+Q: How many hours am I allowed to be made to work in one day?
+RAW: ANSWER: No more than eight hours in one day.
+QUOTE: (1) Except as hereinafter provided, an employee shall not be required under his contract of service to work— (b) more than eight hours in one day;
+
+q05 retrieved=['s60D', 's19', 's60I']
+Q: Do I get paid if a public holiday falls on a day I would normally work?
+RAW: ANSWER: NOT_FOUND
+QUOTE: NOT_FOUND
+
+q06 retrieved=['s37', 's40', 's41A']
+Q: How long can a pregnant employee stay on maternity leave?
+RAW: ANSWER: A female employee shall be entitled to maternity leave for an eligible period in respect of each confinement, which is a period of not less than ninety-eight consecutive days.
+
+QUOTE: (d) "eligible period" means a period of maternity leave of not less than *ninety-eight consecutive days.
+
+q17 retrieved=['s60FA', 's37', 's60E']
+Q: How many days of paternity leave can I take and how many times?
+RAW: ANSWER: A married male employee shall be entitled to a paid paternity leave at his ordinary rate of pay for a period of seven consecutive days in respect of each confinement. QUOTE: Section 60FA(1) of the Malaysian Employment Act 1955.
+
+ANSWER: A married male employee shall be restricted to five confinements irrespective of the number of spouses. QUOTE: Section 60FA(2) of the Malaysian Employment Act 1955.
+
+NOT_FOUND
+
+q19 retrieved=['s73', 's25A', 's24']
+Q: Is my employer allowed to take money out of my salary?
+RAW: ANSWER: Yes, your employer is allowed to make deductions from your salary, but only in accordance with the Malaysian Employment Act 1955 and with your written request. QUOTE: (s24(2))
+
+q21 retrieved=['s41A', 's40', 's37']
+Q: Can my employer fire me because I am pregnant?
+RAW: ANSWER: NOT_FOUND
+QUOTE: NOT_FOUND
+
+q24 retrieved=['s2', 's33', 's100']
+Q: What does the law mean by wages?
+RAW: ANSWER: Wages means the remuneration payable to an employee for his work, including any allowance or benefit, and includes any payment made to an employee in lieu of wages, but does not include any payment made to an employee in respect of any approved incentive payment scheme.
+
+QUOTE: “wages” means the remuneration payable to an employee for his work, including any allowance or benefit, and includes any payment made to an employee in lieu of wages, but does not include any payment made to an em

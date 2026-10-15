@@ -11,12 +11,13 @@ def main():
     ap.add_argument("--split", default="dev", choices=["dev", "test"])
     ap.add_argument("--limit", type=int, default=0, help="only the first N questions")
     ap.add_argument("--tag", default="v2", help="label for the output files")
+    ap.add_argument("--model", default="llama3.2", help="Ollama model name")
     args = ap.parse_args()
 
     questions = [q for q in load_questions() if q["split"] == args.split]
     if args.limit:
         questions = questions[:args.limit]
-    assistant = Assistant()
+    assistant = Assistant(model=args.model)
 
     rows = []
     for i, q in enumerate(questions, start=1):
