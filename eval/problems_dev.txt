@@ -1,0 +1,81 @@
+
+##### NOT IN THE ACT but the model answered (7)
+
+q11 gold=[] retrieved=['s60E', 's37', 's25'] cited=[]
+Q: How much does my employer have to contribute to my EPF?
+A: NOTFOUND
+
+q26 gold=[] retrieved=['s7A', 's69', 's2'] cited=[]
+Q: Do I get any benefit if my company lets me go because it is shutting down?
+A: NOTFOUND
+
+q30 gold=[] retrieved=['s37', 's60D', 's38'] cited=[]
+Q: How much income tax do I pay on my internship allowance?
+A: NOTFOUND
+
+q32 gold=[] retrieved=['s2', 's69', 's40'] cited=[]
+Q: Does my employer have to give me a Hari Raya bonus?
+A: NOTFOUND
+
+q33 gold=[] retrieved=['s42', 's18', 's37'] cited=[]
+Q: How long can my probation period be?
+A: NOTFOUND
+
+q34 gold=[] retrieved=['s60', 's2', 's60A'] cited=['s60A']
+Q: Can I work two jobs at the same time?
+A: No, an employee shall not be required under his contract of service to work more than five consecutive hours without a period of leisure of not less than thirty minutes duration [s60A(a)].
+
+q35 gold=[] retrieved=['s60E', 's60F', 's60FA'] cited=[]
+Q: How many days of leave do civil servants get?
+A: NOTFOUND
+
+
+##### Cited a section it was not given (6)
+
+q06 gold=['s37'] retrieved=['s37', 's40', 's41A'] cited=['s37F']
+Q: How long can a pregnant employee stay on maternity leave?
+A: A pregnant employee is entitled to maternity leave for an eligible period of not less than 98 consecutive days. [s37F]
+
+q12 gold=['s60'] retrieved=['s60', 's59', 's60D'] cited=['s60F']
+Q: Can my boss make me work on my weekly rest day and do I get paid extra?
+A: Yes, your boss can make you work on your weekly rest day if you are engaged in work that requires continuous or continual shifts. [s60F]
+
+q13 gold=['s60A'] retrieved=['s100', 's60A', 's60D'] cited=['s3F']
+Q: How much more do I get paid for overtime?
+A: For any overtime work carried out in excess of the normal hours of work, the employee shall be paid at a rate not less than one and half times his hourly rate of pay irrespective of the basis on which his rate of pay is fixed. [s3F]
+
+q24 gold=['s2'] retrieved=['s2', 's33', 's100'] cited=['s60']
+Q: What does the law mean by wages?
+A: Wages mean the remuneration payable to an employee for his work, including any allowance, bonus, or other payment, as provided under section 60 [s60].
+
+q25 gold=['s1'] retrieved=['s1', 's5', 's60D'] cited=['s2']
+Q: Does this law apply to workers in Sabah and Sarawak?
+A: This Act shall apply to *Peninsular Malaysia only [s2].
+
+q28 gold=['s60D'] retrieved=['s60D', 's60I', 's19'] cited=['s60F']
+Q: How much am I paid if I have to work on a public holiday?
+A: If you have to work on a public holiday, you shall be paid two days' wages at the ordinary rate of pay. [s60F(a)(i)]
+
+
+##### No citation, no refusal (2)
+
+q17 gold=['s60FA'] retrieved=['s60FA', 's37', 's60E'] cited=[]
+Q: How many days of paternity leave can I take and how many times?
+A: A married male employee shall be entitled to a paid paternity leave of 7 consecutive days in respect of each confinement, with a maximum of 5 confinements. [s60FA(1) and (2)]
+
+q18 gold=['s19'] retrieved=['s60D', 's18A', 's60E'] cited=[]
+Q: By what date must my employer pay my monthly salary?
+A: Not all information is provided in the sources.
+
+
+##### Gold section retrieved but not cited (2)
+
+q16 gold=['s60E'] retrieved=['s60E', 's100', 's60F'] cited=['s60F']
+Q: What happens to my annual leave if I fall sick during it?
+A: If an employee becomes entitled to sick leave while on paid annual leave, the employee shall be granted the sick leave, and the annual leave shall be deemed to have not been taken in respect of the days for which sick leave is so granted [s60F(1b)].
+
+q22 gold=['s13'] retrieved=['s57', 's21', 's13'] cited=['s57']
+Q: Can my employer pay me money instead of giving me notice when ending my contract?
+A: No, your employer must give you 14 days' notice before terminating your contract, unless there is a wilful breach by you of a condition of the contract. [s57]
+
+[Note: s57 states that a contract can be terminated without notice and without paying an indemnity on the ground of conduct by the other party inconsistent with the terms and conditions of the contract, but this is not the case for terminating a contract without notice.]
