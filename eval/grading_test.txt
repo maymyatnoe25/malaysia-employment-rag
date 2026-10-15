@@ -1,0 +1,313 @@
+==============================================================================
+q37  [answer]   gold=['s60A']   retrieved=['s59', 's60A', 's60C']
+correct section retrieved: YES
+QUESTION: My company wants me to work 50 hours every week. Is that even allowed?
+MODEL:    NOT_FOUND
+--- THE ACT, s60A (Hours of work and working at night) ---
+(1) Except as hereinafter provided, an employee shall not be required under his contract of service to work—
+(a) more than five consecutive hours without a period of leisure of not less than thirty minutes duration;
+(b) more than eight hours in one day;
+(c) in excess of a spread over period of ten hours in one day;
+(d) more than forty-five hours in one week: Provided that—
+(i) for the purpose of paragraph (1)(a), any break of less than thirty minutes in the five consecutive hours shall not break the continuity of that five consecutive hours;
+(ii) an employee who is engaged in work which must be carried on continuously and which requires his continual attendance may be required to work for eight consecutive hours inclusive of a period or periods of not less than forty-five minutes in the aggregate during which he shall have the opportunity to have a meal; and
+(iii) where, by agreement under the contract of service between the employee and the employer, the number of hours of work on one or more days of the week is less than eight, the limit of eight hours may be exceeded on the remaining days of the week, but so that no employee shall be required to work for more than nine hours in one day or forty-five hours in one week. (1 a) The Director General may, on the written application of an employer, grant permission to the employer to enter into a contract of service with any one or more of his employees, or with any class, category or description of his employees, requiring the e
+YOUR GRADE: 
+
+==============================================================================
+q38  [answer]   gold=['s60A']   retrieved=['s60A', 's60C', 's2']
+correct section retrieved: YES
+QUESTION: Can my boss stop me from taking a break if I have worked five hours straight?
+MODEL:    NOT_FOUND
+--- THE ACT, s60A (Hours of work and working at night) ---
+(1) Except as hereinafter provided, an employee shall not be required under his contract of service to work—
+(a) more than five consecutive hours without a period of leisure of not less than thirty minutes duration;
+(b) more than eight hours in one day;
+(c) in excess of a spread over period of ten hours in one day;
+(d) more than forty-five hours in one week: Provided that—
+(i) for the purpose of paragraph (1)(a), any break of less than thirty minutes in the five consecutive hours shall not break the continuity of that five consecutive hours;
+(ii) an employee who is engaged in work which must be carried on continuously and which requires his continual attendance may be required to work for eight consecutive hours inclusive of a period or periods of not less than forty-five minutes in the aggregate during which he shall have the opportunity to have a meal; and
+(iii) where, by agreement under the contract of service between the employee and the employer, the number of hours of work on one or more days of the week is less than eight, the limit of eight hours may be exceeded on the remaining days of the week, but so that no employee shall be required to work for more than nine hours in one day or forty-five hours in one week. (1 a) The Director General may, on the written application of an employer, grant permission to the employer to enter into a contract of service with any one or more of his employees, or with any class, category or description of his employees, requiring the e
+YOUR GRADE: 
+
+==============================================================================
+q39  [answer]   gold=['s60']   retrieved=['s18A', 's60D', 's60I']
+correct section retrieved: NO
+QUESTION: I got called in on my day off and worked three hours. How should that be paid?
+MODEL:    The employee shall be paid two days' wages at the ordinary rate of pay for the day, regardless that the period of work done on that day is less than the normal hours of work. [s60D]
+QUOTE:    (a) in the case of an employee employed on a monthly, weekly, daily, hourly, or other similar rate of pay, be paid two days’ wages at the ordinary rate of pay;
+--- THE ACT, s60 (Work on rest day) ---
+(1) Except  as provided in subsection 60A(2), no employee shall be compelled to work on a rest day unless he is engaged in work which by reason of its nature requires to be carried on continuously or continually by two or more shifts: Provided that in the event of any dispute the Director General shall have power to decide whether or not an employee is engaged in work which by reason of its nature requires to be carried on continuously or continually by two or more shifts.
+(2) ( Omitted ).
+(3) (a) In the case of an employee employed on a daily, hourly or other similar rate of pay who works on a rest day, he shall be paid for any period of work—
+(i) which does not exceed half his normal hours of work, one day’s wages at the ordinary rate of pay; or
+(ii) which is more than half but does not exceed his normal hours of work, two days’ wages at the ordinary rate of pay.
+(b)  In the case of an employee employed on a monthly or weekly rate of pay who works on a rest day, he shall be paid for any period of work—
+(i) which does not exceed half his normal hours of work, wages equivalent to half the ordinary rate of pay for work done on that day; or
+(ii) which is more than half but which does not exceed his normal hours of work, one day’s wages at the ordinary rate of pay for work done on that day.
+(c)  For any work carried out in excess of the normal hours of work on a rest day by an employee mentioned in paragraph (a) or (b), he shall be paid at a rate which is not less than two times
+YOUR GRADE: 
+
+==============================================================================
+q40  [answer]   gold=['s60E']   retrieved=['s60E', 's60F', 's100']
+correct section retrieved: YES
+QUESTION: If I resign, do I still get paid for the leave I haven't used?
+MODEL:    NOT_FOUND
+--- THE ACT, s60E (Annual leave) ---
+(1) An employee shall be entitled to paid annual leave of—
+(a) eight days for every twelve months of continuous service with the same employer if he has been employed by that employer for a period of less than two years;
+(b) twelve days for every twelve months of continuous service with the same employer if he has been employed by that employer for a period of two years or more but less than five years; and
+(c) sixteen days for every twelve months of continuous service with the same employer if he has been employed by that employer for a period of five years or more, and if he has not completed twelve months of continuous service with the same employer during the year in which his contract of service terminates, his entitlement to paid annual leave shall be in direct proportion to the number of completed months of service: Provided that any fraction of a day of annual leave so calculated which is less than one-half of a day shall be disregarded, and where the fraction of a day is one-half or more it shall be deemed to be one day; And provided further that where an employee absents himself from work without the permission of his employer and without reasonable excuse for more than ten per centum of the working days during the twelve months of continuous service in respect of which his entitlement to such leave accrues he shall not be entitled to such leave. (1 a) The paid annual leave to which an employee is entitled under subsection (1) shall be in addition to rest days and p
+YOUR GRADE: 
+
+==============================================================================
+q41  [answer]   gold=['s60F']   retrieved=['s60F', 's60E', 's59']
+correct section retrieved: YES
+QUESTION: How many sick days do I get if I have to stay in hospital?
+MODEL:    sixty days in each calendar year if hospitalization is necessary, as may be certified by such registered medical practitioner or medical officer. [s60F]
+QUOTE:    (bb) of sixty days in the aggregate in each calendar year if hospitalization is necessary, as may be certified by such registered medical practitioner or medical officer:
+--- THE ACT, s60F (Sick leave) ---
+(1) An employee shall, after examination at the expense of the employer—
+(a) by a registered medical practitioner duly appointed by the employer; or
+(b) if no such medical practitioner is appointed or, if having regard to the nature or circumstances of the illness, the services of the medical practitioner so appointed are not obtainable within a reasonable time or distance, by any other registered medical practitioner or by a medical officer, be entitled to paid sick leave,—
+(aa) where no hospitalization is necessary,—
+(i) of fourteen days in the aggregate in each calendar year if the employee has been employed for less than two years;
+(ii) of eighteen days in the aggregate in each calendar year if the employee has been employed for two years or more but less than five years;
+(iii)  of twenty-two days in the aggregate in each calendar year if the employee has been employed for five years or more; or
+(bb) of sixty days in the aggregate in each calendar year if hospitalization is necessary, as may be certified by such registered medical practitioner or medical officer: Provided that if an employee is certified by such registered medical practitioner or medical officer to be ill enough to need to be hospitalized but is not hospitalized for any reason whatsoever, the employee shall be deemed to be hospitalized for the purposes of this section. (1 a) An employee shall also be entitled to paid sick leave under paragraphs (1) (aa) and (bb) after examination by a dental surgeon as de
+YOUR GRADE: 
+
+==============================================================================
+q42  [answer]   gold=['s60D']   retrieved=['s60D', 's19', 's60I']
+correct section retrieved: YES
+QUESTION: A public holiday fell on my off day. Do I get another day off instead?
+MODEL:    Yes, if any of the public holidays referred to in paragraphs (a) and (b) falls on a rest day or any other public holiday, the working day following immediately the rest day or the other public holiday shall be a paid holiday in substitution for the first mentioned public holiday. [s60D]
+QUOTE:    (1 b) Where any of the public holidays or any other day substituted therefor as provided in subsection (1) or (1 a) falls within the period during which an employee is on sick leave or annual leave to which the employee is entitled under this Act, or falls during the period of temporary disablement 
+--- THE ACT, s60D (Holidays) ---
+(1) Every employee shall be entitled to a paid holiday at his ordinary rate of pay on the following days in any one calendar year:
+(a) on eleven of the gazetted public holidays, five of which shall be—
+(i) the National Day;
+(ii) the Birthday of the Yang di-Pertuan Agong;
+(iii) the Birthday of the Ruler or the Yang di-Pertua Negeri, as the case may be, of the State in which the employee wholly or mainly works under his contract of service, or the Federal Territory Day, if the employee wholly or mainly works in the Federal Territory;
+(iv) the Workers’ Day; and
+(v) Malaysia Day; and
+(b) on any day appointed as a public holiday for that particular year under section 8 of the Holidays Act 1951 [Act 369 ]: Provided that if any of the public holidays referred to in paragraphs (a) and (b) falls on—
+(i) a rest day; or
+(ii) any other public holiday referred to in paragraphs
+(a) and (b), the working day following immediately the rest day or the other public holiday shall be a paid holiday in substitution of the first mentioned public holiday. (1 a) The employer shall exhibit conspicuously at the place of employment before the commencement of each calendar year a notice specifying the remaining six gazetted public holidays provided for in paragraph (1) (a) in respect of which his employees shall be entitled to paid holidays under paragraph (1) (a): Provided that by agreement between the employer and an employee any other day or days may be substituted for one or more of the remaining six
+YOUR GRADE: 
+
+==============================================================================
+q43  [answer]   gold=['s37']   retrieved=['s39', 's37', 's40']
+correct section retrieved: YES
+QUESTION: How much does a company have to pay a woman while she is on maternity leave?
+MODEL:    a maternity allowance at her ordinary rate of pay for one day, or at the rate prescribed by the Minister under paragraph 102(2) (c), whichever is the greater. [s37]
+QUOTE:    b) A female employee who is eligible for maternity allowance under paragraph (1) (a) shall be entitled to receive from the employer for each day of the eligible period a maternity allowance at her ordinary rate of pay for one day, or at the rate prescribed by the Minister under paragraph 102(2) (c),
+--- THE ACT, s37 (Length of eligible period and entitlement to maternity allowance) ---
+(1) (a) Every female employee shall be entitled—
+(i) to maternity leave for an eligible period in respect of each confinement; and
+(ii) subject to this Part, to receive from her employer a maternity allowance to be calculated or prescribed as provided in subsection (2) in respect of the eligible period. *NOTE—Previously “ten”— see subparagraph 9( b)(iii) of the Employment (Amendment) Act 2022 [Act A1651 ].
+(aa) Where a female employee is entitled to maternity leave under subparagraph (a)(i), whether or not she is entitled to receive maternity allowance from her employer for the eligible period under paragraph (c), or whether or not she has fulfilled the conditions set out in paragraph (2) (a), she may, with the consent of her employer, commence work at any time during the eligible period if she has been certified fit to resume work by a registered medical practitioner.
+(b)  Subject to section 40, maternity leave shall not commence earlier than a period of thirty days immediately preceding the confinement of a female employee or later than the day immediately following her confinement: Provided that where a medical officer or the registered medical practitioner appointed by the employer certifies that the female employee as a result of her advanced state of pregnancy is unable to perform her duties satisfactorily, the employee may be required to commence her maternity leave at any time during a period of fourteen days preceding the date of her confinement as determined in adva
+YOUR GRADE: 
+
+==============================================================================
+q44  [answer]   gold=['s37']   retrieved=['s37', 's40', 's39']
+correct section retrieved: YES
+QUESTION: Can a woman begin her maternity leave a few weeks before the baby is due?
+MODEL:    NOT_FOUND
+--- THE ACT, s37 (Length of eligible period and entitlement to maternity allowance) ---
+(1) (a) Every female employee shall be entitled—
+(i) to maternity leave for an eligible period in respect of each confinement; and
+(ii) subject to this Part, to receive from her employer a maternity allowance to be calculated or prescribed as provided in subsection (2) in respect of the eligible period. *NOTE—Previously “ten”— see subparagraph 9( b)(iii) of the Employment (Amendment) Act 2022 [Act A1651 ].
+(aa) Where a female employee is entitled to maternity leave under subparagraph (a)(i), whether or not she is entitled to receive maternity allowance from her employer for the eligible period under paragraph (c), or whether or not she has fulfilled the conditions set out in paragraph (2) (a), she may, with the consent of her employer, commence work at any time during the eligible period if she has been certified fit to resume work by a registered medical practitioner.
+(b)  Subject to section 40, maternity leave shall not commence earlier than a period of thirty days immediately preceding the confinement of a female employee or later than the day immediately following her confinement: Provided that where a medical officer or the registered medical practitioner appointed by the employer certifies that the female employee as a result of her advanced state of pregnancy is unable to perform her duties satisfactorily, the employee may be required to commence her maternity leave at any time during a period of fourteen days preceding the date of her confinement as determined in adva
+YOUR GRADE: 
+
+==============================================================================
+q45  [answer]   gold=['s37', 's41A']   retrieved=['s37', 's40', 's41A']
+correct section retrieved: YES
+QUESTION: My boss let me go while I was pregnant and about to go on maternity leave. Is that legal?
+MODEL:    NOT_FOUND
+--- THE ACT, s37 (Length of eligible period and entitlement to maternity allowance) ---
+(1) (a) Every female employee shall be entitled—
+(i) to maternity leave for an eligible period in respect of each confinement; and
+(ii) subject to this Part, to receive from her employer a maternity allowance to be calculated or prescribed as provided in subsection (2) in respect of the eligible period. *NOTE—Previously “ten”— see subparagraph 9( b)(iii) of the Employment (Amendment) Act 2022 [Act A1651 ].
+(aa) Where a female employee is entitled to maternity leave under subparagraph (a)(i), whether or not she is entitled to receive maternity allowance from her employer for the eligible period under paragraph (c), or whether or not she has fulfilled the conditions set out in paragraph (2) (a), she may, with the consent of her employer, commence work at any time during the eligible period if she has been certified fit to resume work by a registered medical practitioner.
+(b)  Subject to section 40, maternity leave shall not commence earlier than a period of thirty days immediately preceding the confinement of a female employee or later than the day immediately following her confinement: Provided that where a medical officer or the registered medical practitioner appointed by the employer certifies that the female employee as a result of her advanced state of pregnancy is unable to perform her duties satisfactorily, the employee may be required to commence her maternity leave at any time during a period of fourteen days preceding the date of her confinement as determined in adva
+--- THE ACT, s41A (Restriction on termination of pregnant female employee) ---
+(1) Where a female employee is pregnant or is suffering from an illness arising out of her pregnancy, it shall be an offence for her employer to terminate her services or give her notice of termination of service, except on the grounds of—
+(a) wilful breach of a condition of the contract of service under subsection 13(2);
+(b) misconduct under subsection 14(1); or
+(c) closure of the employer’s business.
+(2) Where the service of a female employee under subsection (1) is terminated, the burden of proving that such termination is not on the ground of her pregnancy or on the ground of illness arising out of her pregnancy, shall rest on the employer.
+YOUR GRADE: 
+
+==============================================================================
+q46  [answer]   gold=['s12']   retrieved=['s12', 's13', 's63A']
+correct section retrieved: YES
+QUESTION: My contract says nothing about notice and I have worked here three years. How long a notice must I give?
+MODEL:    four weeks' notice if the employee has been so employed for less than two years on the date on which the notice is given. [s12]
+QUOTE:    (a) four weeks’ notice if the employee has been so employed for less than two years on the date on which the notice is given;
+--- THE ACT, s12 (Notice of termination of contract) ---
+(1) Either party to a contract of service may at any time give to the other party notice of his intention to terminate such contract of service. *NOTE—The Children and Young Persons (Employment) Act 1966 [ Act 40 of 1966 ] has since been revised as the Children and Young Persons (Employment) Act 1966 [ Act 350 ].
+(2) The length of such notice shall be the same for both employer and employee and shall be determined by a provision made in writing for such notice in the terms of the contract of service, or, in the absence of such provision in writing, shall not be less than—
+(a) four weeks’ notice if the employee has been so employed for less than two years on the date on which the notice is given;
+(b) six weeks’ notice if he has been so employed for two years or more but less than five years on such date;
+(c) eight weeks’ notice if he has been so employed for five years or more on such date: Provided that this section shall not be taken to prevent either party from waiving his right to a notice under this subsection.
+(3) Notwithstanding anything contained in subsection (2), where the termination of service of the employee is attributable wholly or mainly to the fact that—
+(a) the employer has ceased, or intends to cease to carry on the business for the purposes of which the employee was employed;
+(b) the employer has ceased or intends to cease to carry on the business in the place at which the employee was contracted to work;
+(c) the requirements of that business for the employ
+YOUR GRADE: 
+
+==============================================================================
+q47  [answer]   gold=['s14']   retrieved=['s78', 's15', 's81C']
+correct section retrieved: NO
+QUESTION: Can my boss stop me from working without pay while they look into a complaint against me?
+MODEL:    NOT_FOUND
+--- THE ACT, s14 (Termination of contract for special reasons) ---
+(1) An employer may, on the grounds of misconduct inconsistent with the fulfilment of the express or implied conditions of his service, after due inquiry—
+(a) dismiss without notice the employee;
+(b) downgrade the employee; or
+(c) impose any other lesser punishment as he deems just and fit, and where a punishment of suspension without wages is imposed, it shall not exceed a period of two weeks.
+(2) For the purposes of an inquiry under subsection (1), the employer may suspend the employee from work for a period not exceeding two weeks but shall pay him not less than half his wages for such period: Provided that if the inquiry does not disclose any misconduct on the part of the employee the employer shall forthwith restore to the employee the full amount of wages so withheld.
+(3) An employee may terminate his contract of service with his employer without notice where he or his dependants are immediately threatened by danger to the person by violence or disease such as such employee did not by his contract of service undertake to run.
+YOUR GRADE: 
+
+==============================================================================
+q48  [answer]   gold=['s14']   retrieved=['s12', 's25A', 's81H']
+correct section retrieved: NO
+QUESTION: Does my company have to give me notice before firing me for stealing?
+MODEL:    NOT_FOUND
+--- THE ACT, s14 (Termination of contract for special reasons) ---
+(1) An employer may, on the grounds of misconduct inconsistent with the fulfilment of the express or implied conditions of his service, after due inquiry—
+(a) dismiss without notice the employee;
+(b) downgrade the employee; or
+(c) impose any other lesser punishment as he deems just and fit, and where a punishment of suspension without wages is imposed, it shall not exceed a period of two weeks.
+(2) For the purposes of an inquiry under subsection (1), the employer may suspend the employee from work for a period not exceeding two weeks but shall pay him not less than half his wages for such period: Provided that if the inquiry does not disclose any misconduct on the part of the employee the employer shall forthwith restore to the employee the full amount of wages so withheld.
+(3) An employee may terminate his contract of service with his employer without notice where he or his dependants are immediately threatened by danger to the person by violence or disease such as such employee did not by his contract of service undertake to run.
+YOUR GRADE: 
+
+==============================================================================
+q49  [answer]   gold=['s24']   retrieved=['s24', 's25', 's60']
+correct section retrieved: YES
+QUESTION: Can my company take more than half of my salary to recover a loan?
+MODEL:    NOT_FOUND
+--- THE ACT, s24 (Lawful deductions) ---
+(1) No deductions shall be made by an employer from the wages of an employee otherwise than in accordance with this Act.
+(2) It shall be lawful for an employer to make the following deductions:
+(a) deductions to the extent of any overpayment of wages made during the immediately preceding three months from the month in which deductions are to be made, by the employer to the employee by the employer’s mistake;
+(b) deductions for the indemnity due to the employer by the employee under subsection 13(1);
+(c) deductions for the recovery of advances of wages made under section 22 provided no interest is charged on the advances; and
+(d) deductions authorized by any other written law.
+(3) The following deductions shall only be made at the request in writing of the employee:
+(a) deductions in respect of the payments to a registered trade union or co-operative thrift and loan society of any sum of money due to the trade union or society by the employee on account of entrance fees, subscriptions, instalments and interest on loans, or other dues; and
+(b) deductions in respect of payments for any shares of the employer’s business offered for sale by the employer and purchased by the employee.
+(4) The following deductions shall not be made except at the request in writing of the employee and with the prior permission in writing of the Director General:
+(a) deductions in respect of payments into any superannuation scheme, provident fund, employer’s welfare scheme or insurance scheme establis
+YOUR GRADE: 
+
+==============================================================================
+q50  [answer]   gold=['s19']   retrieved=['s100', 's19', 's60A']
+correct section retrieved: YES
+QUESTION: By when does my employer have to pay me for overtime?
+MODEL:    Not later than the last day of the next wage period. [s19]
+QUOTE:    (2) Wages for work done on a rest day, gazetted public holiday referred to in paragraphs 60 d(1)(a) and (b) and overtime referred to in section 60 a shall be paid not later than the last day of the next wage period.
+--- THE ACT, s19 (wage period.Number of days of the particular wage period Time of payment of wages) ---
+(1) Subject to subsection (2), every employer shall pay to each of his employees not later than the seventh day after the last day of any wage period the wages, less lawful deductions earned by such employee during such wage period.
+(2) Wages for work done on a rest day, gazetted public holiday referred to in paragraphs 60 d(1)(a) and (b) and overtime referred to in section 60 a shall be paid not later than the last day of the next wage period.
+(3) Notwithstanding subsections (1) and (2), if the Director General is satisfied that payment within such time is not reasonably practicable, he may, on the application of the employer, extend the time of payment by such number of days as he thinks fit.
+YOUR GRADE: 
+
+==============================================================================
+q51  [answer]   gold=['s60Q']   retrieved=['s60A', 's60C', 's60']
+correct section retrieved: NO
+QUESTION: How long does my boss have to answer my request to work from home?
+MODEL:    NOT_FOUND
+--- THE ACT, s60Q (Application for flexible working arrangement) ---
+(1) The employee shall make an application for flexible working arrangement under section 60 P in writing and in the form and manner as may be determined by the Director General.
+(2) Upon the application made under subsection (1), an employer shall, within sixty days from the date such application is received, approve or refuse the application.
+(3) The employer shall inform the employee in writing of the employer’s approval or refusal of the application under subsection (1) and in the case of a refusal, the employer shall state the ground of such refusal.
+YOUR GRADE: 
+
+==============================================================================
+q52  [none]   gold=[]   retrieved=['s18A', 's18', 's60E']
+QUESTION: How much of my salary goes to SOCSO every month?
+MODEL:    NOT_FOUND
+YOUR GRADE: 
+
+==============================================================================
+q53  [none]   gold=[]   retrieved=['s60C', 's60B', 's67']
+QUESTION: Can my company read my work emails?
+MODEL:    NOT_FOUND
+YOUR GRADE: 
+
+==============================================================================
+q54  [none]   gold=[]   retrieved=['s103', 's2', 's12']
+QUESTION: What happens to my EPF savings when I resign?
+MODEL:    NOT_FOUND
+YOUR GRADE: 
+
+==============================================================================
+q55  [answer]   gold=['s81B']   retrieved=['s81D', 's81B', 's81C']
+correct section retrieved: YES
+QUESTION: If I complain about harassment at work, does my company have to look into it?
+MODEL:    Yes, if a complaint of sexual harassment is made to the Director General, the Director General shall assess the complaint and may direct an employer to inquire into such complaint. [s81D]
+QUOTE:    (1) If a complaint of sexual harassment is made to the Director General, the Director General shall assess the complaint and may direct an employer to inquire into such complaint.
+--- THE ACT, s81B (Inquiry into complaints of sexual harassment) ---
+(1) Upon receipt of a complaint of sexual harassment, an employer or any class of employers shall inquire into the complaint in a manner prescribed by the Minister.
+(2) Subject to subsection (3), where an employer refuses to inquire into the complaint of sexual harassment as required under subsection (1), he shall, as soon as practicable but in any case not later than thirty days after the date of the receipt of the complaint, inform the complainant of the refusal and the reasons for the refusal in writing.
+(3) Notwithstanding subsection (2), an employer may refuse to inquire into any complaint of sexual harassment as required under subsection (1), if—
+(a) the complaint of sexual harassment has previously been inquired into and no sexual harassment has been proven; or
+(b) the employer is of the opinion that the complaint of sexual harassment is frivolous, vexatious or is not made in good faith.
+(4) An y complainant who is dissatisfied with the refusal of the employer to inquire into his complaint of sexual harassment, may refer the matter to the Director General.
+(5) The Director General after reviewing the matter referred to him und er subsection (4)—
+(a) if he thinks the matter should be inquired into, direct the employer to conduct an inquiry; or
+(b) if he agrees with the decision of the employer not to conduct the inquiry, inform the person who referred the matter to him that no further action will be taken.
+YOUR GRADE: 
+
+==============================================================================
+q56  [answer]   gold=['s81B']   retrieved=['s81B', 's81D', 's81C']
+correct section retrieved: YES
+QUESTION: My company refused to investigate my harassment complaint. What can I do?
+MODEL:    NOT_FOUND
+--- THE ACT, s81B (Inquiry into complaints of sexual harassment) ---
+(1) Upon receipt of a complaint of sexual harassment, an employer or any class of employers shall inquire into the complaint in a manner prescribed by the Minister.
+(2) Subject to subsection (3), where an employer refuses to inquire into the complaint of sexual harassment as required under subsection (1), he shall, as soon as practicable but in any case not later than thirty days after the date of the receipt of the complaint, inform the complainant of the refusal and the reasons for the refusal in writing.
+(3) Notwithstanding subsection (2), an employer may refuse to inquire into any complaint of sexual harassment as required under subsection (1), if—
+(a) the complaint of sexual harassment has previously been inquired into and no sexual harassment has been proven; or
+(b) the employer is of the opinion that the complaint of sexual harassment is frivolous, vexatious or is not made in good faith.
+(4) An y complainant who is dissatisfied with the refusal of the employer to inquire into his complaint of sexual harassment, may refer the matter to the Director General.
+(5) The Director General after reviewing the matter referred to him und er subsection (4)—
+(a) if he thinks the matter should be inquired into, direct the employer to conduct an inquiry; or
+(b) if he agrees with the decision of the employer not to conduct the inquiry, inform the person who referred the matter to him that no further action will be taken.
+YOUR GRADE: 
+
+==============================================================================
+q57  [answer]   gold=['s81C']   retrieved=['s101C', 's81C', 's70']
+correct section retrieved: YES
+QUESTION: What happens if the person bothering me is a client and not a coworker?
+MODEL:    The employer shall recommend that the person be brought before an appropriate disciplinary authority to which the person is subject to. [s81C]
+QUOTE:    (b) in the case where the person against whom the complaint of sexual harassment is made is a person other than an employee, recommend that the person be brought before an appropriate disciplinary authority to which the person is subject to.
+--- THE ACT, s81C (Findings of inquiry by employer) ---
+Where the employer conducts an inquiry into a complaint of sexual harassment received under subsection 81 b(1) and the employer is satisfied that sexual harassment is proven, the employer shall—
+(a) in the case where the person against whom the complaint of sexual harassment is made is an employee, take disciplinary action which may include the following:
+(i) dismissing the employee without notice;
+(ii) downgrading the employee; or
+(iii)  imposing any other lesser punishment as he deems just and fit, and where the punishment of suspension without wages is imposed, it shall not exceed a period of two weeks; and
+(b) in the case where the person against whom the complaint of sexual harassment is made is a person other than an employee, recommend that the person be brought before an appropriate disciplinary authority to which the person is subject to.
+YOUR GRADE: 
+
+==============================================================================
+q58  [answer]   gold=['s81E']   retrieved=['s81C', 's81D', 's81B']
+correct section retrieved: NO
+QUESTION: Can I quit on the spot if my harassment complaint is proven?
+MODEL:    yes, if the complaint of sexual harassment is proven, the employer shall take disciplinary action which may include dismissing the employee without notice. [s81C]
+QUOTE:    (a) in the case where the person against whom the complaint of sexual harassment is made is an employee, take disciplinary action which may include the following: (i) dismissing the employee without notice;
+--- THE ACT, s81E (Effects of decisions of the Director General) ---
+(1) Where the Director General decides under subsection 81d(4) that sexual harassment is proven, the complainant may terminate his contract of service without notice.
+(2) If the complainant terminates the contract of service under subsection (1), the complainant is entitled to—
+(a) wages as if the complainant has given the notice of the termination of contract of service; and
+(b) termination benefits and indemnity, as provided for under the Act or the contract of service, as the case may be.
+YOUR GRADE: 

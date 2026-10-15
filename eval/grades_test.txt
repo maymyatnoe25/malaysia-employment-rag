@@ -1,0 +1,23 @@
+# Graded by hand against the Act text; test split run once (llama3.2, v3 prompt)
+q37 refused-with-section-shown
+q38 refused-with-section-shown
+q39 wrong (rest-day pay answered with holiday rule; s60 not retrieved)
+q40 refused-with-section-shown
+q41 correct
+q42 correct (quote shown did not support the answer)
+q43 partly (omits eligibility conditions)
+q44 refused-with-section-shown
+q45 refused-with-section-shown
+q46 wrong (gave four-week tier for three years of service)
+q47 honest-refusal (s14 not retrieved)
+q48 honest-refusal (s14 not retrieved)
+q49 refused-with-section-shown
+q50 correct
+q51 honest-refusal (s60Q not retrieved)
+q52 correct-refusal
+q53 correct-refusal
+q54 correct-refusal
+q55 partly (right yes, quoted s81D instead of s81B)
+q56 refused-with-section-shown
+q57 correct
+q58 wrong (s81E not retrieved; answered with the harasser-dismissal rule)
