@@ -138,44 +138,14 @@ A: NOT_FOUND
 QUOTE: Either party to a contract of service may terminate such contract of service without notice or, if notice has already been given in accordance with section 12, without waiting for the expiry of that notice, by paying to the other party an indemnity o
 
 
-##### NOT IN THE ACT BUT ANSWERED (8)
-
-q10 retrieved=['s60I', 's18', 's18A'] cited=['s18'] support=1.0
-Q: What is the minimum monthly wage in Malaysia?
-A: The Employment Act 1955 does not specify a minimum monthly wage. It outlines how wages are calculated based on the agreed rate of pay and the wage period, which cannot exceed one month. [s18]
-QUOTE: A contract of service shall specify a wage period not exceeding one month.
-
-q11 retrieved=['s60E', 's37', 's25'] cited=['s25'] support=1.0
-Q: How much does my employer have to contribute to my EPF?
-A: The Employment Act 1955 does not specify how much an employer must contribute to an EPF. SECTION 25 outlines payment of wages through a financial institution, but does not address employer contributions to the EPF. [s25]
-QUOTE: The entire amount of wages earned by, or payable to, any employee in respect of any work done by him less any lawful deductions, shall be actually paid to him through payment into an account opened by a financial institution, being an account in the 
+##### NOT IN THE ACT, ANSWERED AS IF COVERED (2)
 
 q26 retrieved=['s7A', 's69', 's2'] cited=['s69'] support=0.97
 Q: Do I get any benefit if my company lets me go because it is shutting down?
 A: An employee may be entitled to payment if their employer is shutting down. [s69]
 QUOTE: the Director General may make an order in the prescribed form for the payment by the employer of such sum of money as he deems just without limitation of the amount thereof.
 
-q32 retrieved=['s2', 's69', 's40'] cited=['s69'] support=1.0
-Q: Does my employer have to give me a Hari Raya bonus?
-A: The Act does not specifically mention a Hari Raya bonus. SECTION 69 outlines the Director General’s power to decide disputes regarding payments, but it focuses on wages and other payments due under the contract of service. SECTION 40 deals with maternity allowances and related notifications. [s69]
-QUOTE: The Director General may inquire into and decide any dispute between an employee and his employer in respect of wages or any other payments in cash due to such employee under—(a) any term of the contract of service between such employee and his emplo
-
-q33 retrieved=['s42', 's18', 's37'] cited=['s18'] support=1.0
-Q: How long can my probation period be?
-A: The Act does not specify a maximum length for probation periods. It focuses on wage periods and maternity leave entitlements for female employees. [s18]
-QUOTE: A contract of service shall specify a wage period not exceeding one month.
-
-q34 retrieved=['s60', 's2', 's60A'] cited=['s2'] support=1.0
-Q: Can I work two jobs at the same time?
-A: The Act does not specifically address the ability to work two jobs simultaneously. However, section 2 defines “contract of service” as an agreement whereby one person employs another as an employee, which would generally allow for multiple employment arrangements. [s2]
-QUOTE: contract of service” means any agreement, whether oral or in writing and whether express or implied, whereby one person agrees to employ another as an employee and that other agrees to serve his employer as an employee
-
 q35 retrieved=['s60E', 's60F', 's60FA'] cited=['s60E'] support=0.81
 Q: How many days of leave do civil servants get?
 A: An employee is entitled to eight days of paid annual leave if they have been employed for less than two years, twelve days if they have been employed for two years or more but less than five years, and sixteen days if they have been employed for five years or more. [s60E]
 QUOTE: eight days for every twelve months of continuous service with the same employer if he has been employed by that employer for a period of less than two years; twelve days for every twelve months of continuous service with the same employer if he has b
-
-q36 retrieved=['s1', 's60O', 's2'] cited=['s2'] support=0.93
-Q: What is the legal retirement age in Malaysia?
-A: This Act does not specify a legal retirement age for employees. [s2]
-QUOTE: This Act has been extended to the Federal Territory of Labuan– see subsection 1(2) of the Federal Territory of Labuan (Extension and Modification of Employment Act) Order 2000  w.e.f. 1 November 2000.

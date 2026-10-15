@@ -11,3 +11,8 @@ No decision was made from it.
 Priority 1: do not give a confident answer to a question the Act does not cover.
 Priority 2: among models that do that, prefer more correct answers on answerable questions.
 Chosen on the 35 dev questions only. Test split run once afterwards.
+## Generator chosen on dev
+llama3.2 with the v3 prompt and fuzzy quote check (0 of 9 unanswerable questions answered
+as if covered, per the priority rule above). gemma3:4b answered 2 of 9 as if covered.
+Both models gave wrong answers on answerable questions (hand-graded). The app shows
+sources and the verbatim quote first, with the summary labelled machine-generated.
