@@ -7,10 +7,9 @@ RAW = Path("data/raw")
 # Official Laws of Malaysia (Attorney General's Chambers), English edition.
 FILES = {
     "employment_act_1955.pdf":
-        "https://lom.agc.gov.my/ilims/upload/portal/akta/LOM/EN/"
-        "Act%20265%20-%20Employment%20Act%201955.pdf",
+        "https://lom.agc.gov.my/ilims/upload/portal/akta/outputaktap/1744567_BI/"
+        "Reprint%20Act%20265%20(Final).pdf",
 }
-
 
 def main():
     RAW.mkdir(parents=True, exist_ok=True)
