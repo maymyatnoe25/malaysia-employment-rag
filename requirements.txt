@@ -2,5 +2,7 @@ pypdf
 pandas
 requests
 pytest
+numpy
 rank-bm25
 sentence-transformers
+streamlit
