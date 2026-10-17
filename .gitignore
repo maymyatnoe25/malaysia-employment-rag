@@ -220,3 +220,8 @@ __marimo__/
 .streamlit/secrets.toml
 data/raw/
 data/processed/
+# Large media: upload elsewhere and link it in the README
+*.mp4
+*.mov
+*.mkv
+*.avi

@@ -18,6 +18,7 @@ from src.generate import Assistant
 
 st.set_page_config(
     page_title="KerjaRights AI | Employment Law Assistant",
+    page_icon="⚖️",
     layout="wide",
     initial_sidebar_state="expanded",
 )
@@ -79,13 +80,12 @@ html, body, [class*="css"], .stApp {
 
 .block-container {
     max-width: 1120px;
-    padding-top: 3rem;
+    padding-top: 5rem;
     padding-bottom: 4rem;
 }
 
-/* Fix top spacing so the main content is not clipped */
-[data-testid="stAppViewBlockContainer"] {
-    padding-top: 3rem;
+header[data-testid="stHeader"] {
+    background: var(--background);
 }
 
 h1, h2, h3 {
@@ -303,7 +303,7 @@ div[data-testid="stExpander"] {
     color: #303A36;
     font-size: 0.98rem;
     line-height: 1.8;
-    white-space: pre-wrap;
+    white-space: normal;
 }
 
 .quote-box {
@@ -371,7 +371,7 @@ div[data-testid="stMetricValue"] {
 
 @media (max-width: 640px) {
     .block-container {
-        padding-top: 1.2rem;
+        padding-top: 4.5rem;
     }
 
     .brand {
@@ -481,7 +481,6 @@ def get_results(question, use_ai):
 
     if cache_key in st.session_state["result_cache"]:
         return st.session_state["result_cache"][cache_key]
-
 
     if use_ai:
         with st.spinner("Searching the Act and preparing the explanation..."):
@@ -893,7 +892,7 @@ st.markdown(
         <strong>Important evaluation limitation</strong><br>
         In the reported test, the assistant declined all 3 questions
         judged to be outside the Act's coverage. The test set is small
-        and was graded manually by the author. A real quotation from
+        and was graded by the author together with an AI assistant, without independent review. A real quotation from
         legislation does not guarantee a correct explanation.
         The indexed text is dated 1 August 2023.
     </div>
@@ -907,13 +906,15 @@ with st.expander("Evaluation methodology and known limitations"):
         - **Retrieval:** the correct section appeared among the top three
           retrieved results for 14 of 19 held-out questions.
         - **Summary assessment:** 4 fully correct, 2 partly correct,
-          3 incorrect, and 10 declined, based on the author's manual grading.
+          3 incorrect, and 10 declined, graded by the author together with an AI assistant, without independent review.
         - **Out-of-scope questions:** 3 of 3 were declined in the reported test.
         - **Known failure:** an explanation may quote a real sentence but
           still give the wrong answer, such as an incorrect notice period
           for a particular length of service.
         - **Limitations:** the sample is small and does not establish
           performance across all employment-law questions.
+        - **Test questions:** the 19 held-out questions were written after
+          development failures had been seen, so they are not fully independent.
         """
     )
 
